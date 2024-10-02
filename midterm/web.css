@@ -1,0 +1,101 @@
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #b1a38b 0%,
+        #b1a38b  50%,
+        #504138 0%,
+        #504138 50%
+    );
+}
+.air {
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    background: linear-gradient(
+        to right,
+        #b1a38b 0%,
+        #b1a38b  50%,
+        #504138 0%,
+        #504138 50%
+    );
+}
+.collapse{
+    margin-left: 950px;
+}
+
+.logo {
+    height: 60px; 
+    width: 150px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    border: 0.1px transparent;
+    border-radius: 20px;
+    height: 600px;
+    background: linear-gradient(
+        to right,
+        #d3c2a6 0%,
+        #d3c2a6 50%,
+        #5a493f 0%,
+        #5a493f 50%
+    );
+    margin-top: 100px;
+}
+.nike{
+    width: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#carouselExampleDark {
+    width: 75%; 
+    height: 100%; 
+    margin: auto;
+    margin-top: 5px; 
+    
+  }
+  
+.carousel-inner1 img {
+    width: 50%; 
+    height: 50%;
+    border-radius: 70px;
+    margin-left: 240px;
+    margin-top: -70px;
+  }
+.carousel-inners img {
+    width: 50%; 
+    height: 50%;
+    border-radius: 70px;
+    margin-left: 240px;
+    margin-top: 500px;
+  }
+  .carousel-item img {
+    width: 50%; 
+    height: 50%;
+    border-radius: 70px;
+    margin-left: 240px;
+    margin-top: 100px;
+  }
+.first{
+    position: absolute;
+    margin-top: 5px;
+}
+.first1{
+    position: absolute;
+    margin-top: 50px;
+}
+.second{
+    position: absolute;
+    margin-top: 5px;
+}
+.second1{
+    position: absolute;
+    margin-top: 50px;
+}
+.shoe2{
+    margin-top: 90px;
+}
