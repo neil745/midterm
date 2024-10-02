@@ -27,7 +27,9 @@ body{
 
 .logo {
     height: 60px; 
-    width: 150px;
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 1px;
 }
 
 .container{
@@ -43,59 +45,53 @@ body{
         #5a493f 0%,
         #5a493f 50%
     );
-    margin-top: 100px;
+    margin-top: 120px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
 }
-.nike{
-    width: 50px;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-
-#carouselExampleDark {
-    width: 75%; 
-    height: 100%; 
-    margin: auto;
-    margin-top: 5px; 
-    
-  }
-  
-.carousel-inner1 img {
-    width: 50%; 
-    height: 50%;
-    border-radius: 70px;
-    margin-left: 240px;
-    margin-top: -70px;
-  }
-.carousel-inners img {
-    width: 50%; 
-    height: 50%;
-    border-radius: 70px;
-    margin-left: 240px;
-    margin-top: 500px;
-  }
-  .carousel-item img {
-    width: 50%; 
-    height: 50%;
-    border-radius: 70px;
-    margin-left: 240px;
-    margin-top: 100px;
-  }
-.first{
+.div1{
+    width: 400px;
+    height: 400px;
+    background-color:#d3c2a6;
     position: absolute;
-    margin-top: 5px;
+    right: 225px;
+    border-radius: 50%;
 }
-.first1{
+.shoe1 {
+    width: 600px;    
+    height: auto;
+    border-radius: 25px; 
+    margin-top: -10px;
     position: absolute;
-    margin-top: 50px;
+    right: 150px;
+    transform: rotate(-15deg);
 }
-.second{
+.des{
     position: absolute;
-    margin-top: 5px;
+    width: 645px;
+    left: 130px;
 }
-.second1{
+.desc{
+    margin-top: -150px;
+    margin-left: 30px;
+}
+.descs{
+    font-size: large;
+    margin-left: 15px;
+}
+.descs1{
+    font-size: large;
+    margin-top: -18px;
+}
+.btn{
+    color: #eadbc0;
+    background-color: #504138;
     position: absolute;
-    margin-top: 50px;
+    left: 230px;
+    top: 100px;
 }
-.shoe2{
-    margin-top: 90px;
+.btn:hover{
+    color: #504138;
+    border: solid #504138;
 }
