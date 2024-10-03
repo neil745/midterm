@@ -7,6 +7,7 @@ body{
         #504138 0%,
         #504138 50%
     );
+    overflow-x: hidden;
 }
 .air {
     display: flex;
@@ -94,4 +95,28 @@ body{
 .btn:hover{
     color: #504138;
     border: solid #504138;
+}
+.Prod{
+    margin-top: 100px;
+    border: solid;
+    width: 200px;
+    
+}
+.h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    margin-left: 130px;
+}
+.card{
+    background-color: transparent;
+    border: transparent;
+}
+.cards{
+    margin-top: -50px;
+}
+.card-img-top{
+    border-radius: 25px;
 }
