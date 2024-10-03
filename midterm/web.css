@@ -1,44 +1,47 @@
-body{
+body {
     height: 100vh;
     background: linear-gradient(
         to right,
         #b1a38b 0%,
-        #b1a38b  50%,
+        #b1a38b 50%,
         #504138 0%,
         #504138 50%
     );
     overflow-x: hidden;
 }
+
 .air {
     display: flex;
     align-items: center;
 }
-.navbar{
+
+.navbar {
     background: linear-gradient(
         to right,
         #b1a38b 0%,
-        #b1a38b  50%,
+        #b1a38b 50%,
         #504138 0%,
         #504138 50%
     );
 }
-.collapse{
-    margin-left: 950px;
+
+.collapse {
+    margin-left: auto; /* Use auto margin for better alignment */
 }
 
+/* Adjust logo size for responsiveness */
 .logo {
-    height: 60px; 
-    width: 80px;
-    margin-left: 50px;
+    height: 10vh; /* Use viewport height */
+    width: auto; /* Maintain aspect ratio */
+    margin-left: 5%; /* Use relative units */
     margin-top: 1px;
 }
 
-.container{
+.container {
     width: 90%;
-    margin: auto;
-    border: 0.1px transparent;
+    max-width: 1200px; /* Set a max width for larger screens */
+    margin: 120px auto 0; /* Center the container */
     border-radius: 20px;
-    height: 600px;
     background: linear-gradient(
         to right,
         #d3c2a6 0%,
@@ -46,77 +49,142 @@ body{
         #5a493f 0%,
         #5a493f 50%
     );
-    margin-top: 120px;
     display: flex; 
     justify-content: center;
     align-items: center; 
+    flex-direction: column; /* Stack items vertically */
 }
-.div1{
-    width: 400px;
-    height: 400px;
-    background-color:#d3c2a6;
-    position: absolute;
-    right: 225px;
+
+.div1 {
+    width: 80%; /* Use relative units */
+    max-width: 400px; /* Limit max size */
+    height: auto; /* Use auto height */
+    background-color: #d3c2a6;
     border-radius: 50%;
 }
+
 .shoe1 {
-    width: 600px;    
-    height: auto;
+    width: 80%; /* Use relative units */
+    max-width: 600px; /* Limit max size */
+    height: auto; /* Use auto height */
     border-radius: 25px; 
     margin-top: -10px;
-    position: absolute;
-    right: 150px;
     transform: rotate(-15deg);
 }
-.des{
-    position: absolute;
-    width: 645px;
-    left: 130px;
+
+.des {
+    width: 80%; /* Use relative units */
+    max-width: 645px; /* Limit max size */
 }
-.desc{
+
+.desc {
     margin-top: -150px;
-    margin-left: 30px;
+    margin-left: 5%; /* Use relative units */
 }
-.descs{
-    font-size: large;
+
+.descs, .descs1 {
+    font-size: large; /* Keep font size responsive */
     margin-left: 15px;
 }
-.descs1{
-    font-size: large;
-    margin-top: -18px;
-}
-.btn{
+
+.btn {
     color: #eadbc0;
     background-color: #504138;
-    position: absolute;
-    left: 230px;
-    top: 100px;
+    margin-top: 20px; /* Use margin instead of position */
 }
-.btn:hover{
+
+.btn:hover {
     color: #504138;
     border: solid #504138;
 }
-.Prod{
-    margin-top: 100px;
-    border: solid;
-    width: 200px;
-    
+
+.prod {
+    margin-top: 200px;
+    height: auto; /* Use auto height */
 }
-.h1{
+
+.h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px auto; /* Center the header */
+    border: solid;
+    width: auto; /* Use auto width */
 }
-.row{
-    margin-left: 130px;
+
+.row {
+    margin: 50px auto; /* Center rows */
 }
-.card{
+
+.car {
     background-color: transparent;
     border: transparent;
 }
-.cards{
-    margin-top: -50px;
+
+.cards, .cardss, .cardss1 {
+    margin-top: 0; /* Remove negative margins */
 }
-.card-img-top{
-    border-radius: 25px;
+
+@font-face {
+    font-family: Poppins-Boldx;
+    src: url('Poppins-Bold.ttf');
+}
+
+#Reviews {
+    font-family: Poppins-Bold;
+}
+
+.com {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Stack items vertically */
+}
+
+.rows1, .rows2 {
+    margin-left: 0; /* Reset for mobile */
+}
+
+.checked {
+    color: orange;
+}
+
+.foot {
+    padding: 1px;
+    margin-top: 50px;
+}
+
+.last {
+    margin-top: -35px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .collapse {
+        margin-left: 0; /* Reset for smaller screens */
+    }
+
+    .logo {
+        height: 8vh; /* Adjust size for smaller screens */
+    }
+
+    .container {
+        margin-top: 80px; /* Adjust margin */
+    }
+
+    .div1, .shoe1, .des {
+        width: 90%; /* Make items wider on small screens */
+    }
+
+    .btn {
+        width: 100%; /* Make button full width */
+        margin-top: 10px; /* Adjust margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .desc, .descs, .descs1 {
+        font-size: medium; /* Adjust font size for small screens */
+    }
 }
